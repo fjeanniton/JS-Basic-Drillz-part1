@@ -1,23 +1,23 @@
 class StrangerStrings {
 
     getHelloWorld(){
-        return null;
+         return "Hello world";
     }
 
     concatenation(firstSegment, secondSegment){
-        return null;
+        return firstSegment + secondSegment;
     }
 
     getPrefix(input){
-        return null;
+        return input.substring(0,3);
     }
 
     getSuffix(input){
-        return null;
+        return input.substring(0,3);
     }
 
     getMiddleCharacter(input){
-        return null;
+        return ninput.substring(input.length / 2 - 1), input.length % 2 === 0 ? 2 :1);
     }
 
     getFirstWord(input){

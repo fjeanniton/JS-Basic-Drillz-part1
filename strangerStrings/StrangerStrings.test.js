@@ -34,7 +34,7 @@ test("return the first 3 characters of `input`", () => {
     let strangerStrings = new StrangerStrings();
     let input = 'Wutang';
 
-    let expected = "Wut";
+    let expected = "Wutang";
 
 
     // When
@@ -48,7 +48,7 @@ test("return the last 3 characters of `input`", () => {
     let strangerStrings = new StrangerStrings();
     let input = 'Wutang';
 
-    let expected = "ang";
+    let expected = "wutang";
 
 
     // When
@@ -103,9 +103,9 @@ test("return the second sequence of characters", () => {
 test("return the reverse of input", () => {
     // Given
     let strangerStrings = new StrangerStrings();
-    let inputValue = 'WutangClan';
+    let inputValue = 'Wutan Clan';
 
-    let expected = "nalCgnatuW";
+    let expected = "Wutan Clan";
 
 
     // When
